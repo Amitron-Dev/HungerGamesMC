@@ -1,0 +1,9 @@
+name: HungerCore
+author: Martin
+version: "0.1"
+api: Spigot
+api-version: "1.8.8"
+main: net.martin.hunger.GMain
+commands:
+  deathlist:
+    description: List of death players
