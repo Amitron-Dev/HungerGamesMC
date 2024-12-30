@@ -4,3 +4,42 @@ location:
     y: 72
     z: 324.700
     world: "world"
+  spawns:
+    world: "world"
+    
+  
+    one:
+      x: 404.693
+      y: 103
+      z: 333.7
+      h: 23 # Hauteur entre le sol et la plateforme
+      
+    two:
+      x: 404.699
+      y: 103
+      z: 316.411
+      h: 23 # Hauteur entre le sol et la plateforme
+      
+    three:
+      x: 404.700
+      y: 103
+      z: 299.453
+      h: 23 # Hauteur entre le sol et la plateforme
+      
+    four:
+      x: 404.686
+      y: 103
+      z: 282.447
+      h: 23 # Hauteur entre le sol et la plateforme
+      
+    five:
+      x: 404.7
+      y: 103
+      z: 265.418
+      h: 23 # Hauteur entre le sol et la plateforme
+      
+    six:
+      x: 404.7
+      y: 103
+      z: 248.456
+      h: 23 # Hauteur entre le sol et la plateforme

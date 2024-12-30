@@ -21,6 +21,21 @@ public class Death implements CommandExecutor {
 		
 		if(p.hasPermission("hunger.deathlist")) {
 			
+			
+			if(main.getDeath().isEmpty()) {
+				p.sendMessage("§cAucun joueurs n'est morts.");
+			}else {
+				StringBuilder deathNames = new StringBuilder("Liste des joueurs morts : ");
+				
+				for(Player death : main.getDeath()) {	
+					deathNames.append(death.getName()).append(", ");
+				}
+				
+				
+				p.sendMessage(deathNames.toString());
+			}
+			
+			
 		}
 		return false;
 	}
